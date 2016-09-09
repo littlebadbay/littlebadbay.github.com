@@ -1,0 +1,48 @@
+# user variables, change this to make custom site.
+
+name: fly island
+desc: A free sky.
+author:
+  name: littlebadbay
+  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
+  profile: |
+    ******
+  socials:
+    facebook:
+    twitter: //twitter.com/littlebadbay
+    google-plus:
+    github: //github.com/littlebadbay
+    stack-overflow: 
+    instagram:
+    pinterest:
+    steam: 
+license: MIT License
+
+
+# theme variables, change this to make site looks best.
+baseurl: /
+paginate: 2
+
+
+# system variables, do not change unless you knew what's it does.
+paginate_path: page/:num
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+sass:
+  sass_dir: _sass
+  style: compressed
