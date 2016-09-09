@@ -1,48 +1,26 @@
-# user variables, change this to make custom site.
+title: John Smith
+description: My Personal Blog
+author: John Smith
+logo: /hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/ashutosh2k12
+about: Freelance developer
 
-name: fly island
-desc: A free sky.
-author:
-  name: littlebadbay
-  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
-  profile: |
-    ******
-  socials:
-    facebook:
-    twitter: //twitter.com/littlebadbay
-    google-plus:
-    github: //github.com/littlebadbay
-    stack-overflow: 
-    instagram:
-    pinterest:
-    steam: 
-license: MIT License
+baseurl: "http://aboutashu.com/hcz-jekyll-blog"
+url: "http://aboutashu.com/hcz-jekyll-blog"
+
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
+
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
 
 
-# theme variables, change this to make site looks best.
-baseurl: /
-paginate: 2
+enableTags: true
+tagarray: []
 
-
-# system variables, do not change unless you knew what's it does.
-paginate_path: page/:num
-highlighter: pygments
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
-sass:
-  sass_dir: _sass
-  style: compressed
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
