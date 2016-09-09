@@ -1,14 +1,14 @@
-title: John Smith
+title: flying island
 description: My Personal Blog
-author: John Smith
-logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/ashutosh2k12
+author: littlebadbay
+logo: /static/img/avatar.png
+github: https://github.com/littlebadbay
 about: Freelance developer
 
-baseurl: "http://aboutashu.com/hcz-jekyll-blog"
-url: "http://aboutashu.com/hcz-jekyll-blog"
+baseurl: "http://littlebadbay.github.io"
+url: "littlebadbay.github.io"
 
-disqus_shortname: aboutashu
+disqus_shortname: littlebadbay
 google_analytics: UA-72862926-1
 
 share:
