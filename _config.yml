@@ -12,8 +12,8 @@ baseurl:
 paginate: 20
 
 # Markdown Processors
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions:
     - hard_wrap
     - no_intra_emphasis
